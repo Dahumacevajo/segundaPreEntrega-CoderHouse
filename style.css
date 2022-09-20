@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*-------------index-----------------*/
+
+.nav-index{
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 50px;
+  background-color: yellow}
+
+.div-index-nav{
+    list-style: none; 
+    display: inline-block;
+    position: absolute;
+ }
+ .ul-nav{
+   border: outset red 5px;
+   display: inline-block;
+   padding-top: 5px;
+   padding-bottom: 5px;
+ }
+ .index__nav{
+display: inline-block;
+position: absolute;
+right: 1%;
+top: 0%;
+
+ }
+ .boton-nav{
+   border: inset blue 5px;
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 8px;
+    right: 130px;
+ }
+.li-nav{
+    display: inline;
+    margin-top: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    font-size: 20px;
+ }
+.iconos-nav{
+   margin-top: 10px;
+size: 30px;
+width: 40px;
+height: 40px;
+}
+footer{
+   background-color: mediumaquamarine;
+   height: 100px;
+   
+   
+}
+footer p{
+   display: inline-block;
+   
+}
+.contacto-foot{
+   font-size: 24px;
+   text-align: center;
+   
+}
+.div-foot{
+   display: inline-block;
+   height: 80px;
+   border: solid 2px blue;
+   font-size: 17px;
+}
+.iconos-foot{
+size: 10px;
+width: 20px;
+height: 20px;
+
+}
+
+.headerPrincipal{
+   background-image: url("contendos/accidentes-laborales.jpg");
+   height: 730px;
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+   background-color: aqua;
+   
+   }
+.h1index{
+   padding-top: 40px;
+   margin-top: 30px;
+   margin-left: 50px;
+   font-size: 50px;
+   color: white;
+}
+.div-emergente{
+   padding: 20px;
+   margin: 190px 30px;
+   border: solid 2px rgb(44, 113, 210);
+   display:inline-block;
+   width: 200px;
+   height: 130px;
+   
+   
+}
+.cajita-1 {
+   width: auto;
+   height: auto;
+   border: solid 1px;
+   margin-bottom: 3px;
+   color: white; 
+   font-size: 18px;
+   background-color: red;
+}
+.cajita-2{ 
+   width: auto;
+   height: auto;
+   margin-bottom: 3px;
+   color: white;
+   font-size: 18px;
+
+}
+.cajita-3{
+   width: auto;
+   height: auto;
+   border: solid 1px;
+   color: white;
+   font-size: 18px;
+}
+.cajas-conceptuales{
+   margin-left: 350px;
+   border: solid 1px;
+   display: inline-block;
+   width: 250px;
+   height: suto;
+   padding: 30px;
+   font-size: 25px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.cajas-conceptuales ul{ 
+   list-style: none;
+}
+.spani{
+   font-size: 20px;
+   margin-bottom: 0;
+}
+
+.primeros-auxilios{
+   padding-left: 100px;
+   font-size: 19px;
+
+}
+.primeros-auxilios h2{
+font-size: 50px;
+padding-left: 350px;
+}
+.accidentes{
+   padding: 40px 50px;
+   margin: 80px;
+   font-size: 19px;
+
+}
+.accidentes h2{
+   padding-left: 400px;
+   font-size: 50px;
+   margin-bottom: 30px;
+}
+.accidente-de-trabajo{
+   padding-left: 100px;
+   font-size: 19px;
+   margin-bottom: 80px;
+}
+.accidente-de-trabajo h2{
+   padding-left: 380px;
+   font-size: 50px;
+}
+.riesgos-laborales{ 
+   font-size: 20px;
+   padding-left: 40px;
+
+}
+.riesgos-laborales h3{
+   color: red;
+   
+}
+.riesgos-laborales ul{
+   list-style: none;
+}
+
+
+
+iframe{
+   margin-left: 300px;
+   padding: 100px;
+}
+
+
+
+
+
+/*---------------------recursos Humanos-----------------------*/
+
+.art-der-huma{
+background-color: #83F5EE;
+margin: 100px 50px 50px;
+padding: 10px;
+}
+.art-der-huma img{
+   width: 800px;
+   margin-left: 250px;
+
+}
+.titulo-rh{
+font-size: 3rem;
+height: 50px;
+display: inline-block;
+margin: 70px;
+border-bottom: solid  3px  brown;
+}
+.admin-personal h3{
+margin: 50px 30px 20px;
+font-size: 1.5rem;
+}
+.admin-personal p{
+   font-size: 1.2rem;
+   margin: 0px 30px;
+}
+/*                      terminos legales                       */
+.seccion-legal{
+   margin: 50px;
+}
+.titulo-legal h1{
+   font-size: 30px;
+}
+.p{
+   display: inline-block;
+   font-size: 29px;
+   font-style: italic;
+}
+.texto-final{
+   display: inline-block;
+   margin: 30px;
+   margin-left: 100px;
+   font-size: 30px;
+   background-color: crimson;
+}
+
+/*                      procedimientos de emergencia          */
+.seccion-emer{
+   margin: 40px;
+}
+.h1-emer{
+   font-size: 40px;
+   margin: 20px 0 20px 190px;
+   background-color: #FF444F;
+   display: inline-block;
+}
+.div-pas p{
+   display: inline-block;
+   font-size: 25px;
+}
+.div-pas h3 {
+   display: inline-block;
+   background-color: yellow;
+   font-size: 35px;
+   width: 25px;
+}
+.div-texto{
+   margin-top: 50px;
+   font-size: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.art-situaciones h3{
+   display: inline-block;
+   font-size: 40px;
+   border-bottom: solid 4px green;
+   margin-left: 50px;
+
+}
+.art-situaciones p{
+   font-size: 2rem;
+   border-bottom: solid 2px black;
+   display: inline-block;
+   margin: 20px;
+}
+.imagenes-proced{
+   display: inline-block;
+   font-size: 24px;
+}
+.imagenes-proced img{
+   font-size: 24px;
+   height: 250px;
+   width: 250px;
+}
+/*               historia                      */
+.seccion-historia{
+   margin: 50px;
+}
+.seccion-historia h1{
+   font-size: 35px;
+   margin-left: 300px;
+   
+}
+.seccion-historia article{
+   background-color: #BDBB66;
+   padding: 20px;
+}
+.div-historia {
+   display: inline-block;
+   align-items: center;
+}
